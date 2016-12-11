@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34DB8F391DFD382900B602F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F381DFD382900B602F5 /* main.m */; };
+		34DB8F3C1DFD382900B602F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F3B1DFD382900B602F5 /* AppDelegate.m */; };
+		34DB8F421DFD382900B602F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DB8F401DFD382900B602F5 /* Main.storyboard */; };
+		34DB8F441DFD382900B602F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34DB8F431DFD382900B602F5 /* Assets.xcassets */; };
+		34DB8F471DFD382900B602F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34DB8F451DFD382900B602F5 /* LaunchScreen.storyboard */; };
+		34DB8F521DFD382A00B602F5 /* NPScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F511DFD382A00B602F5 /* NPScannerTests.m */; };
+		34DB8F5D1DFD382A00B602F5 /* NPScannerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F5C1DFD382A00B602F5 /* NPScannerUITests.m */; };
+		34DB8F6C1DFD3BA200B602F5 /* NPScannerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F6B1DFD3BA200B602F5 /* NPScannerHelper.m */; };
+		34DB8F6F1DFD3EE400B602F5 /* NPHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34DB8F6E1DFD3EE400B602F5 /* NPHomePageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34DB8F4E1DFD382A00B602F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DB8F2C1DFD382900B602F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DB8F331DFD382900B602F5;
+			remoteInfo = NPScanner;
+		};
+		34DB8F591DFD382A00B602F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34DB8F2C1DFD382900B602F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34DB8F331DFD382900B602F5;
+			remoteInfo = NPScanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34DB8F341DFD382900B602F5 /* NPScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NPScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DB8F381DFD382900B602F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		34DB8F3A1DFD382900B602F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		34DB8F3B1DFD382900B602F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		34DB8F411DFD382900B602F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34DB8F431DFD382900B602F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34DB8F461DFD382900B602F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34DB8F481DFD382900B602F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DB8F4D1DFD382A00B602F5 /* NPScannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPScannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DB8F511DFD382A00B602F5 /* NPScannerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPScannerTests.m; sourceTree = "<group>"; };
+		34DB8F531DFD382A00B602F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DB8F581DFD382A00B602F5 /* NPScannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NPScannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		34DB8F5C1DFD382A00B602F5 /* NPScannerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPScannerUITests.m; sourceTree = "<group>"; };
+		34DB8F5E1DFD382A00B602F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34DB8F6A1DFD3BA200B602F5 /* NPScannerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPScannerHelper.h; sourceTree = "<group>"; };
+		34DB8F6B1DFD3BA200B602F5 /* NPScannerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPScannerHelper.m; sourceTree = "<group>"; };
+		34DB8F6D1DFD3EE400B602F5 /* NPHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPHomePageViewController.h; sourceTree = "<group>"; };
+		34DB8F6E1DFD3EE400B602F5 /* NPHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPHomePageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34DB8F311DFD382900B602F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F4A1DFD382A00B602F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F551DFD382A00B602F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34DB8F2B1DFD382900B602F5 = {
+			isa = PBXGroup;
+			children = (
+				34DB8F361DFD382900B602F5 /* NPScanner */,
+				34DB8F501DFD382A00B602F5 /* NPScannerTests */,
+				34DB8F5B1DFD382A00B602F5 /* NPScannerUITests */,
+				34DB8F351DFD382900B602F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34DB8F351DFD382900B602F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34DB8F341DFD382900B602F5 /* NPScanner.app */,
+				34DB8F4D1DFD382A00B602F5 /* NPScannerTests.xctest */,
+				34DB8F581DFD382A00B602F5 /* NPScannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34DB8F361DFD382900B602F5 /* NPScanner */ = {
+			isa = PBXGroup;
+			children = (
+				34DB8F3A1DFD382900B602F5 /* AppDelegate.h */,
+				34DB8F3B1DFD382900B602F5 /* AppDelegate.m */,
+				34DB8F401DFD382900B602F5 /* Main.storyboard */,
+				34DB8F6D1DFD3EE400B602F5 /* NPHomePageViewController.h */,
+				34DB8F6E1DFD3EE400B602F5 /* NPHomePageViewController.m */,
+				34DB8F6A1DFD3BA200B602F5 /* NPScannerHelper.h */,
+				34DB8F6B1DFD3BA200B602F5 /* NPScannerHelper.m */,
+				34DB8F431DFD382900B602F5 /* Assets.xcassets */,
+				34DB8F451DFD382900B602F5 /* LaunchScreen.storyboard */,
+				34DB8F481DFD382900B602F5 /* Info.plist */,
+				34DB8F371DFD382900B602F5 /* Supporting Files */,
+			);
+			path = NPScanner;
+			sourceTree = "<group>";
+		};
+		34DB8F371DFD382900B602F5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				34DB8F381DFD382900B602F5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34DB8F501DFD382A00B602F5 /* NPScannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				34DB8F511DFD382A00B602F5 /* NPScannerTests.m */,
+				34DB8F531DFD382A00B602F5 /* Info.plist */,
+			);
+			path = NPScannerTests;
+			sourceTree = "<group>";
+		};
+		34DB8F5B1DFD382A00B602F5 /* NPScannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34DB8F5C1DFD382A00B602F5 /* NPScannerUITests.m */,
+				34DB8F5E1DFD382A00B602F5 /* Info.plist */,
+			);
+			path = NPScannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34DB8F331DFD382900B602F5 /* NPScanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DB8F611DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScanner" */;
+			buildPhases = (
+				34DB8F301DFD382900B602F5 /* Sources */,
+				34DB8F311DFD382900B602F5 /* Frameworks */,
+				34DB8F321DFD382900B602F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NPScanner;
+			productName = NPScanner;
+			productReference = 34DB8F341DFD382900B602F5 /* NPScanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34DB8F4C1DFD382A00B602F5 /* NPScannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DB8F641DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScannerTests" */;
+			buildPhases = (
+				34DB8F491DFD382A00B602F5 /* Sources */,
+				34DB8F4A1DFD382A00B602F5 /* Frameworks */,
+				34DB8F4B1DFD382A00B602F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34DB8F4F1DFD382A00B602F5 /* PBXTargetDependency */,
+			);
+			name = NPScannerTests;
+			productName = NPScannerTests;
+			productReference = 34DB8F4D1DFD382A00B602F5 /* NPScannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34DB8F571DFD382A00B602F5 /* NPScannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34DB8F671DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScannerUITests" */;
+			buildPhases = (
+				34DB8F541DFD382A00B602F5 /* Sources */,
+				34DB8F551DFD382A00B602F5 /* Frameworks */,
+				34DB8F561DFD382A00B602F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34DB8F5A1DFD382A00B602F5 /* PBXTargetDependency */,
+			);
+			name = NPScannerUITests;
+			productName = NPScannerUITests;
+			productReference = 34DB8F581DFD382A00B602F5 /* NPScannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34DB8F2C1DFD382900B602F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Nouman Pervez";
+				TargetAttributes = {
+					34DB8F331DFD382900B602F5 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Manual;
+					};
+					34DB8F4C1DFD382A00B602F5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 22CQ94M5S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34DB8F331DFD382900B602F5;
+					};
+					34DB8F571DFD382A00B602F5 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 22CQ94M5S9;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34DB8F331DFD382900B602F5;
+					};
+				};
+			};
+			buildConfigurationList = 34DB8F2F1DFD382900B602F5 /* Build configuration list for PBXProject "NPScanner" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34DB8F2B1DFD382900B602F5;
+			productRefGroup = 34DB8F351DFD382900B602F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34DB8F331DFD382900B602F5 /* NPScanner */,
+				34DB8F4C1DFD382A00B602F5 /* NPScannerTests */,
+				34DB8F571DFD382A00B602F5 /* NPScannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34DB8F321DFD382900B602F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DB8F471DFD382900B602F5 /* LaunchScreen.storyboard in Resources */,
+				34DB8F441DFD382900B602F5 /* Assets.xcassets in Resources */,
+				34DB8F421DFD382900B602F5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F4B1DFD382A00B602F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F561DFD382A00B602F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34DB8F301DFD382900B602F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DB8F6F1DFD3EE400B602F5 /* NPHomePageViewController.m in Sources */,
+				34DB8F6C1DFD3BA200B602F5 /* NPScannerHelper.m in Sources */,
+				34DB8F3C1DFD382900B602F5 /* AppDelegate.m in Sources */,
+				34DB8F391DFD382900B602F5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F491DFD382A00B602F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DB8F521DFD382A00B602F5 /* NPScannerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34DB8F541DFD382A00B602F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34DB8F5D1DFD382A00B602F5 /* NPScannerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34DB8F4F1DFD382A00B602F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DB8F331DFD382900B602F5 /* NPScanner */;
+			targetProxy = 34DB8F4E1DFD382A00B602F5 /* PBXContainerItemProxy */;
+		};
+		34DB8F5A1DFD382A00B602F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34DB8F331DFD382900B602F5 /* NPScanner */;
+			targetProxy = 34DB8F591DFD382A00B602F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34DB8F401DFD382900B602F5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DB8F411DFD382900B602F5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34DB8F451DFD382900B602F5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34DB8F461DFD382900B602F5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34DB8F5F1DFD382A00B602F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "f7b85aab-fb6d-4ee2-b9ea-3834bdec38af";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		34DB8F601DFD382A00B602F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "f7b85aab-fb6d-4ee2-b9ea-3834bdec38af";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34DB8F621DFD382A00B602F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NPScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nouman.scanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7b85aab-fb6d-4ee2-b9ea-3834bdec38af";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		34DB8F631DFD382A00B602F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NPScanner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nouman.scanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "f7b85aab-fb6d-4ee2-b9ea-3834bdec38af";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		34DB8F651DFD382A00B602F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22CQ94M5S9;
+				INFOPLIST_FILE = NPScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.NPScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPScanner.app/NPScanner";
+			};
+			name = Debug;
+		};
+		34DB8F661DFD382A00B602F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 22CQ94M5S9;
+				INFOPLIST_FILE = NPScannerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.NPScannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NPScanner.app/NPScanner";
+			};
+			name = Release;
+		};
+		34DB8F681DFD382A00B602F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22CQ94M5S9;
+				INFOPLIST_FILE = NPScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.NPScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPScanner;
+			};
+			name = Debug;
+		};
+		34DB8F691DFD382A00B602F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 22CQ94M5S9;
+				INFOPLIST_FILE = NPScannerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = perveznouman.NPScannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NPScanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34DB8F2F1DFD382900B602F5 /* Build configuration list for PBXProject "NPScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB8F5F1DFD382A00B602F5 /* Debug */,
+				34DB8F601DFD382A00B602F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DB8F611DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB8F621DFD382A00B602F5 /* Debug */,
+				34DB8F631DFD382A00B602F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DB8F641DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB8F651DFD382A00B602F5 /* Debug */,
+				34DB8F661DFD382A00B602F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34DB8F671DFD382A00B602F5 /* Build configuration list for PBXNativeTarget "NPScannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DB8F681DFD382A00B602F5 /* Debug */,
+				34DB8F691DFD382A00B602F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34DB8F2C1DFD382900B602F5 /* Project object */;
+}
