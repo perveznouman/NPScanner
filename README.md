@@ -24,6 +24,10 @@ Must call ```-(void)scanningProcessCompleted:(NSString *)barCode;```  to recieve
 Call ```-(void)scanningProcessCancelled;``` to notify when the user tap cancel button in the scanner view.
 This method is optional.
 
+# Authors
+
+Nouman Pervez - Initial work - NPScanner
+
 # License
 The MIT License (MIT)
 
