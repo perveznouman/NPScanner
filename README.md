@@ -7,7 +7,7 @@ Import NPScannerHelper.h class into your viewController where you want to integr
 ```
 #import "NPScannerHelper.h"
 ```
-#Usage
+# Usage
 Call singleton method to start scanning your QRCode or BarCode
 ```
  [[NPScannerHelper ScannersharedInstance]setScannerDelegate:self];
@@ -24,7 +24,7 @@ Must call ```-(void)scanningProcessCompleted:(NSString *)barCode;```  to recieve
 Call ```-(void)scanningProcessCancelled;``` to notify when the user tap cancel button in the scanner view.
 This method is optional.
 
-#License
+# License
 The MIT License (MIT)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
